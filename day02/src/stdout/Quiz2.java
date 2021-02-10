@@ -19,18 +19,20 @@ public class Quiz2 {
 		// 수학 : nn
 		// 합계 : nnn
 		// 평균 : nn.nn
+		
 		name = "강지언";
-		kor = 95;
-		eng = 100;
-		mat = 85;
+		kor = 96;
+		eng = 95;
+		mat = 86;
 		sum = kor + eng + mat;
 		avg = sum / 3.0;
 		
-		System.out.printf("이름 : %s\n",name);
-		System.out.printf("국어 : %3d\n",kor);
-		System.out.printf("영어 : %3d\n",eng);
-		System.out.printf("수학 : %3d\n",mat);
-		System.out.printf("합계 : %3d\n",sum);
-		System.out.printf("평균 : %.2f\n",avg);
+		System.out.printf("이름 : %s\n", name);
+		System.out.printf("국어 : %3d\n", kor);
+		System.out.printf("영어 : %3d\n", eng);
+		System.out.printf("수학 : %3d\n", mat);
+		System.out.printf("합계 : %3d\n", sum);
+		System.out.printf("평균 : %.2f\n", avg);
+		
 	}
 }

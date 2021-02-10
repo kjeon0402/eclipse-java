@@ -27,5 +27,14 @@ public class Quiz {
 		System.out.printf(format,14,15,16,17,18,19,20);
 		System.out.printf(format,21,22,23,24,25,26,27);
 		System.out.printf("%3d\n",28);
+		
+		String format2 = "%2s\t%2s\t%2s\t%2s\t%2s\t%2s\t%2s\n";
+		int date2 = 1;
+		System.out.printf(format2,"일","월","화","수","목","금","토");
+		System.out.printf(format2,"",date2++,date2++,date2++,date2++,date2++,date2++);
+		System.out.printf(format2,date2++,date2++,date2++,date2++,date2++,date2++,date2++);
+		System.out.printf(format2,date2++,date2++,date2++,date2++,date2++,date2++,date2++);
+		System.out.printf(format2,date2++,date2++,date2++,date2++,date2++,date2++,date2++);
+		System.out.printf(format2,date2++,"","","","","","");
 	}
 }

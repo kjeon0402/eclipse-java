@@ -9,11 +9,11 @@ public class Quiz {
 		// 합계와 평균을 계산하여
 		// 화면에 출력하세요 (평균은 소수점 첫째 자리까지만 출력하기)
 		
+		Scanner sc = new Scanner(System.in);
+		
 		String name;
 		int kor, eng, mat, sum;
 		double avg;
-		
-		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("이름을 입력하세요 : ");
 		name = sc.nextLine();
@@ -29,7 +29,8 @@ public class Quiz {
 		
 		sum = kor + eng + mat;
 		avg = sum / 3.0;
-		System.out.printf("합계 : %d, 평균 : %.1f", sum, avg);
+		
+		System.out.printf("합계 : %d, 평균 : %.1f\n", sum, avg);
 		
 		sc.close();
 	}

@@ -40,7 +40,7 @@ public class Quiz {
 		System.out.println("국어 \t: " + kor);
 		System.out.println("영어 \t: " + eng);
 		System.out.println("수학 \t: " + mat);
-		System.out.printf("합계 \t: %d, 평균 : %.1f\n", sum, avg);
+		System.out.printf("합계 \t: %d\n평균 \t: %.1f\n", sum, avg);
 		
 		sc.close();
 	}

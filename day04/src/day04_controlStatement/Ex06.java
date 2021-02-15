@@ -19,5 +19,7 @@ public class Ex06 {
 		case 0 : System.out.println("짝수"); break; 
 		case 1 : System.out.println("홀수"); break; 
 		}
+		sc.close();
+	
 	}
 }

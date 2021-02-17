@@ -40,5 +40,37 @@ public class Ex05 {
 			System.out.println();
 		}
 		System.out.println();
+		
+		// 직각삼각형 그리기
+		for(int i = 0; i < 5; i++) { 
+			for(int j = 0; j < 5; j++) {
+				
+				boolean flag2 = i >= j;
+				System.out.printf("%s ", flag2 ? ch : " ");
+			}
+			System.out.println();
+		}
+		System.out.println();
+		
+		// 직각삼각형2(반복 횟수 줄이기)
+		for(int i = 0; i < 5; i++) { 
+			for(int j = 0; j < 5; j++) {
+				System.out.printf("%s ", ch);
+				if(i == j) {
+					break;
+				}
+			}
+			System.out.println();
+		}
+		System.out.println();
+		
+		// 직각삼각형3
+		for(int i = 0; i < 5; i++) { 
+			for(int j = 0; j <= i; j++) {
+				System.out.printf("%s ", ch);
+			}
+			System.out.println();
+		}
+		System.out.println();
 	}
 }
